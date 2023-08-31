@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+body {
+  margin:0;
+  padding:0;
+  width: 100%;
+}
