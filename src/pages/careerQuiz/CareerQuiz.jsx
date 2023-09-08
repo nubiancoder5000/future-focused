@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Header from "../../component/header/Header.jsx";
 
 const CareerQuiz = () => {
   return (
-    <div>CareerQuiz</div>
-  )
-}
+    <>
+      <Header />
+      <div>CareerQuiz</div>
+    </>
+  );
+};
 
-export default CareerQuiz
+export default CareerQuiz;

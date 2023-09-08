@@ -1,4 +1,10 @@
 html {
     display: flex;
     overflow: auto;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x :hidden;
+    width : 100%;
 }

@@ -3,15 +3,21 @@
   
   &__wrapper {
     display: flex;
+    width : calc(100% - 2rem);
     gap : 2rem;
     flex-direction: row;
     margin-top: 48px;
     flex-wrap: nowrap;
     overflow: auto;
-    width: 100vw;
+    padding-inline : 1rem;
     max-width: 1440px;  // responsive screen barrier
     margin-inline: auto; // centers content in the middle of the screen
- 
+
+    @media screen and (max-width : 768px){
+      flex-direction: column;
+        margin-top: 0px;
+        
+    }
   
   }
 
@@ -30,7 +36,6 @@
         width: 90%;
         height: 100%;
         margin-top:25px;
-       
         object-fit: fill;
         transform: scale(1.7, 1.8);
       //   -webkit-transform: scaleX(1.7); 
@@ -45,14 +50,33 @@
       flex-direction: column;
       justify-content: space-between; 
       gap : 100px;
+      
       align-items: center;
+      &::-webkit-scrollbar  {  // remove scrollbar 
+        width : 0px;
+      }
+      @media screen and (max-width : 768px) {
+      
+        flex-direction: row;
+        
+        overflow-x: auto;
+        order : 1;
+      }
     }
+
+    
 
      &__sideImage{
       width: 200px;
       height: 200px;
-
+     
      }
+
+   .Hero__sideImage--container:nth-of-type(2) {
+        @media screen and (max-width : 768px) {
+          display: none;
+        }
+    }
 }
 
 
