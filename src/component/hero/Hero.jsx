@@ -40,6 +40,15 @@ const Hero = () => {
         </div>
       </div>
       <SearchBar />
+
+      <div className="Hero__bottomText--container">
+        <p>
+          {" "}
+          Future Focused is a Web applicationthat allows young people to
+          discover potential careers they might be interested inby using our
+          career quiz app or exploring the website.{" "}
+        </p>{" "}
+      </div>
     </>
   );
 };

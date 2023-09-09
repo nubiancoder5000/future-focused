@@ -1,0 +1,76 @@
+
+.footer {
+
+    #footer__icon__ig{
+        color:#ffffff;
+        
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-inline: 1rem;
+        font-family: '../../assets/fonts/';
+        max-width: 100%;
+        width: (100% -2rem);
+        flex-wrap: wrap;
+        background-color: #002457;
+        align-items: center;
+        
+
+    }
+
+    &__logo {
+        width: 200px;
+        flex-grow: inherit;
+        border-radius: 16px;
+    }
+
+    &__text{
+            font-family: "canter-bold";
+            background-color: #ffff;
+            color: #002457;
+            height: 25px;
+            padding: 50px;
+            border-radius: 8px;
+            font-size: 30px;
+            justify-content: center;
+            align-content: center;
+                
+        }
+
+    &__icon {
+        width: 70px;
+        height:70px;
+    }
+     
+    &__link {
+        font-family: "canter-bold";
+        font-size: 30px;
+        color: #ffffff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+    &__link--wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media(max-width: 768px) {
+            .__logo {
+                width: 70%;
+                align-items: center;
+                /* Displays logo at 70% width on tablet devices */
+            }
+        }
+    
+    @media(min-width: 1440px) {
+            .__logo {
+                width: 50%;
+                /* Displays logo at 50% width on desktop devices */
+            }
+}
+}

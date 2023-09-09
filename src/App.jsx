@@ -9,6 +9,7 @@ import Hero from "./component/hero/Hero.jsx";
 import CareerQuizNavbar from "./component/careerQuizNavbar/CareerQuizNavbar";
 import CareerQuiz from "./component/careerQuiz/CareerQuiz";
 import Footer from "../src/component/footer/Footer";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -16,7 +17,6 @@ import {
   useRoutes,
   Navigate,
 } from "react-router-dom";
-import ExploreCareers from "./pages/exploreCareers/ExploreCareers";
 
 const App = () => {
   return (
@@ -27,7 +27,6 @@ const App = () => {
           <Route path="/Home" element={<Navigate to="/" replace={true} />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/Hero" element={<Hero />} />
-          <Route path="/explore-careers" element={<ExploreCareers />} />
           <Route path="/career-quiz" element={<CareerQuiz />} />
           <Route path="/career-quiz/:id" element={<CareerQuiz />} />
           <Route path="/footer" element={<Footer />} />

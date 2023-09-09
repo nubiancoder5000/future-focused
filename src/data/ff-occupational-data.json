@@ -1,183 +1,231 @@
 [
     
     {
-        "O*NET-SOC Code": "11-1011.00",
-        "Title": "Chief Executives",
-        "img_url" : "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3149&q=80",
-        "Description": "Determine and formulate policies and provide overall direction of companies or private and public sector organizations within guidelines set up by a board of directors or similar governing body. Plan, direct, or coordinate operational activities at the highest level of management with the help of subordinate executives and staff managers."
+        "onet_soc_code": "11-3012.00",
+        "name": "realistic",
+        "Title": "Drone Pilot",
+        "img_url": "https://images.unsplash.com/photo-1613080218929-5e2e2f9f1e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1906&q=80",
+        "Description": "The primary responsibilities of a drone pilot are to control and maintain an unmanned aerial vehicle (UAV). You can find drone pilot positions with both the military and other governmental organizations, as well as private companies, such as agricultural operations, film and television production companies, surveyors and mapping specialists, and environmental scientists. As a pilot, you perform a variety of duties, such as flying reconnaissance and taking aerial photography and aerial videography. In the military context, drone pilots operate UAVs which bomb targets from across the world."
+    },
+            {
+        "onet_soc_code": "15-1255.01",
+        "name":"investigative",
+        "img_url": "https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3272&q=80",
+        "Title": "Video Game Designer",
+        "Description": "Design core features of video games. Specify innovative game and role-play mechanics, story lines, and character biographies. Create and maintain design documentation. Guide and collaborate with production staff to produce games as designed."
+    },
+            {
+        "onet_soc_code": "15-1254.00",
+        "name":"realistic",
+        "Title": "Web Developer",
+        "img_url" : "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80",
+        "Description": "Develop and implement websites, web applications, application databases, and interactive web interfaces. Evaluate code to ensure that it is properly structured, meets industry standards, and is compatible with browsers and devices. Optimize website performance, scalability, and server-side code and processes. May develop website infrastructure and integrate websites with other computer applications."
     },
 
+        {
+        "onet_soc_code": "17-2199.08",
+        "name":"investigative",
+        "img_url" : "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+        "Title": "Robotics Engineer",
+        "Description": "Research, design, develop, or test robotic applications."
+    },
     {
-        "O*NET-SOC Code": "11-2022.00",
+        "onet_soc_code": "11-1011.00",
+        "Title": "CEO or Chief Executive Officer",
+        "name": "enterprising",
+        "img_url" : "https://images.unsplash.com/photo-1495603889488-42d1d66e5523?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+        "Description": "Determine and formulate policies and provide overall direction of companies or private and public sector organizations within guidelines set up by a board of directors or similar governing body. Plan, direct, or coordinate operational activities at the highest level of management with the help of subordinate executives and staff managers."
+    },
+    {
+        "onet_soc_code": "11-2022.00",
         "img_url" : "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80",
-        "Title": "Sales Managers",
+        "Title": "Sales Manager",
+        "name": "realistic",
         "Description": "Plan, direct, or coordinate the actual distribution or movement of a product or service to the customer. Coordinate sales distribution by establishing sales territories, quotas, and goals and establish training programs for sales representatives. Analyze sales statistics gathered by staff to determine sales potential and inventory requirements and monitor the preferences of customers."
     },
 
     {
-        "O*NET-SOC Code": "15-1221.00",
+        "onet_soc_code": "15-1221.00",
         "img_url" : "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3269&q=80",
-        "Title": "Computer and Information Research Scientists",
+        "Title": "Computer Research Scientist",
+        "name": "realistic",
         "Description": "Conduct research into fundamental computer and information science as theorists, designers, or inventors. Develop solutions to problems in the field of computer hardware and software."
     },
         {
-        "O*NET-SOC Code": "15-1242.00",
-        "Title": "Database Administrators",
+        "onet_soc_code": "15-1242.00",
+        "Title": "Database Administrator",
+        "name": "conventional",
         "img_url": "https://images.unsplash.com/photo-1632406898177-95f7acd8854f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80",
         "Description": "Administer, test, and implement computer databases, applying knowledge of database management systems. Coordinate changes to computer databases. Identify, investigate, and resolve database performance issues, database capacity, and database scalability. May plan, coordinate, and implement security measures to safeguard computer databases."
     },
         {
-        "O*NET-SOC Code": "15-1252.00",
+        "onet_soc_code": "15-1252.00",
+        "name": "realistic",
         "img_url": "https://images.unsplash.com/photo-1631624215749-b10b3dd7bca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-        "Title": "Software Developers",
+        "Title": "Software Developer",
         "Description": "Research, design, and develop computer and network software or specialized utility programs. Analyze user needs and develop software solutions, applying principles and techniques of computer science, engineering, and mathematical analysis. Update software or enhance existing software capabilities. May work with computer hardware engineers to integrate hardware and software systems, and develop specifications and performance requirements. May maintain databases within an application area, working individually or coordinating database development as part of a team."
     },
+
         {
-        "O*NET-SOC Code": "15-1254.00",
-        "Title": "Web Developers",
-        "img_url" : "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80",
-        "Description": "Develop and implement websites, web applications, application databases, and interactive web interfaces. Evaluate code to ensure that it is properly structured, meets industry standards, and is compatible with browsers and devices. Optimize website performance, scalability, and server-side code and processes. May develop website infrastructure and integrate websites with other computer applications."
-    },
-        {
-        "O*NET-SOC Code": "23-1011.00",
-        "Title": "Lawyers",
+        "onet_soc_code": "23-1011.00",
+        "Title": "Lawyer",
+        "name": "enterprising",
         "img_url": "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
         "Description": "Represent clients in criminal and civil litigation and other legal proceedings, draw up legal documents, or manage or advise clients on legal transactions. May specialize in a single area or may practice broadly in many areas of law."
     },
         {
-        "O*NET-SOC Code": "23-2011.00",
-        "Title": "Paralegals and Legal Assistants",
+        "onet_soc_code": "23-2011.00",
+        "name":"conventional",
+        "Title": "Paralegal or Legal Assistant",
         "img_url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3271&q=80",
         "Description": "Assist lawyers by investigating facts, preparing legal documents, or researching legal precedent. Conduct research to support a legal proceeding, to formulate a defense, or to initiate legal action."
     },
         {
-        "O*NET-SOC Code": "27-1012.00",
-        "Title": "Craft Artists",
+        "onet_soc_code": "27-1012.00",
+        "name": "artistic",
+        "Title": "Craft Artist",
         "img_url": "https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3369&q=80",
         "Description": "Create or reproduce handmade objects for sale and exhibition using a variety of techniques, such as welding, weaving, pottery, and needlecraft."
     },
         {
-        "O*NET-SOC Code": "27-1013.00",
-        "Title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+        "onet_soc_code": "27-1013.00",
+        "name": "artistic",
+        "img_url": "https://images.unsplash.com/photo-1633887091273-a3bd71efddde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80",
+        "Title": "Fine Artist- Painter, Sculptor, and Illustrator",
         "Description": "Create original artwork using any of a wide variety of media and techniques."
     },
         {
-        "O*NET-SOC Code": "27-1014.00",
-        "Title": "Special Effects Artists and Animators",
+        "onet_soc_code": "27-1014.00",
+        "name": "artistic",
+        "img_url": "https://images.unsplash.com/photo-1628494391268-c9935bc384d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1915&q=80",
+        "Title": "Special Effects Artist or Animator",
         "Description": "Create special effects or animations using film, video, computers, or other electronic tools and media for use in products, such as computer games, movies, music videos, and commercials."
     },
         {
-        "O*NET-SOC Code": "29-1141.00",
-        "Title": "Registered Nurses",
+        "onet_soc_code": "29-1141.00",
+        "name": "investigative",
+        "img_url": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80",
+        "Title": "Registered Nurse",
         "Description": "Assess patient health problems and needs, develop and implement nursing care plans, and maintain medical records. Administer nursing care to ill, injured, convalescent, or disabled patients. May advise patients on health maintenance and disease prevention or provide case management. Licensing or registration required."
     },
         {
-        "O*NET-SOC Code": "29-1161.00",
-        "Title": "Nurse Midwives",
+        "onet_soc_code": "29-1161.00",
+        "name": "investigative",
+        "img_url": "https://images.unsplash.com/photo-1677682693104-bc4758db3b45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "Title": "Nurse Midwive",
         "Description": "Diagnose and coordinate all aspects of the birthing process, either independently or as part of a healthcare team. May provide well-woman gynecological care. Must have specialized, graduate nursing education."
     },
     {
-        "O*NET-SOC Code": "29-1171.00",
-        "Title": "Nurse Practitioners",
+        "onet_soc_code": "29-1171.00",
+        "name": "investigative",
+        "img_url": "https://images.unsplash.com/photo-1643297654526-d78132dfd25d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+        "Title": "Nurse Practitioner",
         "Description": "Diagnose and treat acute, episodic, or chronic illness, independently or as part of a healthcare team. May focus on health promotion and disease prevention. May order, perform, or interpret diagnostic tests such as lab work and x rays. May prescribe medication. Must be registered nurses who have specialized graduate education."
     },
         {
-        "O*NET-SOC Code": "29-1021.00",
+        "onet_soc_code": "29-1021.00",
+        "name": "investigative",
+        "img_url": "https://images.unsplash.com/photo-1588776814546-daab30f310ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
         "Title": "Dentists, General",
         "Description": "Examine, diagnose, and treat diseases, injuries, and malformations of teeth and gums. May treat diseases of nerve, pulp, and other dental tissues affecting oral hygiene and retention of teeth. May fit dental appliances or provide preventive care."
     },
         {
-        "O*NET-SOC Code": "29-1051.00",
-        "Title": "Pharmacists",
+        "onet_soc_code": "29-1051.00",
+        "name": "investigative",
+        "img_url": "https://images.unsplash.com/photo-1576091358783-a212ec293ff3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1925&q=80",
+        "Title": "Pharmacist",
         "Description": "Dispense drugs prescribed by physicians and other health practitioners and provide information to patients about medications and their use. May advise physicians and other health practitioners on the selection, dosage, interactions, and side effects of medications."
     },
         {
-        "O*NET-SOC Code": "29-1122.00",
-        "Title": "Occupational Therapists",
-        "Description": "Assess, plan, and organize rehabilitative programs that help build or restore vocational, homemaking, and daily living skills, as well as general independence, to persons with disabilities or developmental delays. Use therapeutic techniques, adapt the individual's environment, teach skills, and modify specific tasks that present barriers to the individual."
-    },
-        {
-        "O*NET-SOC Code": "29-1127.00",
-        "Title": "Speech-Language Pathologists",
+        "onet_soc_code": "29-1127.00",
+        "name": "social",
+        "img_url": "https://images.unsplash.com/photo-1629360057380-18b15b42e650?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80",
+        "Title": "Speech-Language Pathologist",
         "Description": "Assess and treat persons with speech, language, voice, and fluency disorders. May select alternative communication systems and teach their use. May perform research related to speech and language problems."
     },
         {
-        "O*NET-SOC Code": "29-1131.00",
-        "Title": "Veterinarians",
+        "onet_soc_code": "29-1131.00",
+        "name": "investigative",
+        "img_url": "https://images.unsplash.com/photo-1630359486912-4b085e38f1e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3269&q=80",
+        "Title": "Veterinarian",
         "Description": "Diagnose, treat, or research diseases and injuries of animals. Includes veterinarians who conduct research and development, inspect livestock, or care for pets and companion animals."
     },
         {
-        "O*NET-SOC Code": "11-9072.00",
+        "onet_soc_code": "11-9072.00",
+        "name": "social",
+        "img_url": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80",
         "Title": "Entertainment and Recreation Managers, Except Gambling",
         "Description": "Plan, direct, or coordinate entertainment and recreational activities and operations of a recreational facility, including cruise ships and parks."
     },
         {
-        "O*NET-SOC Code": "17-2031.00",
-        "Title": "Bioengineers and Biomedical Engineers",
+        "onet_soc_code": "17-2031.00",
+        "img_url" : "https://images.unsplash.com/photo-1580893206515-2fc3e8a2aa96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80",
+        "name":"investigative",
+        "Title": "Bioengineer or Biomedical Engineer",
         "Description": "Apply knowledge of engineering, biology, chemistry, computer science, and biomechanical principles to the design, development, and evaluation of biological, agricultural, and health systems and products, such as artificial organs, prostheses, instrumentation, medical information systems, and health management and care delivery systems."
     },
         {
-        "O*NET-SOC Code": "17-2061.00",
-        "Title": "Computer Hardware Engineers",
+        "onet_soc_code": "17-2061.00",
+        "name": "investigative",
+        "img_url" : "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80",
+        "Title": "Computer Hardware Engineer",
         "Description": "Research, design, develop, or test computer or computer-related equipment for commercial, industrial, military, or scientific use. May supervise the manufacturing and installation of computer or computer-related equipment and components."
     },
     {
-        "O*NET-SOC Code": "17-2071.00",
-        "Title": "Electrical Engineers",
+        "onet_soc_code": "17-2071.00",
+        "name":"investigative",
+        "img_url": "https://images.unsplash.com/photo-1537151377170-9c19a791bbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80",
+        "Title": "Electrical Engineer",
         "Description": "Research, design, develop, test, or supervise the manufacturing and installation of electrical equipment, components, or systems for commercial, industrial, military, or scientific use."
     },
         {
-        "O*NET-SOC Code": "17-2072.00",
-        "Title": "Electronics Engineers, Except Computer",
+        "onet_soc_code": "17-2072.00",
+        "name":"investigative",
+        "Title": "Electronics Engineer, Excluding Computers",
+        "img_url" : "https://images.unsplash.com/photo-1581092921461-eab62e97a780?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80",
         "Description": "Research, design, develop, or test electronic components and systems for commercial, industrial, military, or scientific use employing knowledge of electronic theory and materials properties. Design electronic circuits and components for use in fields such as telecommunications, aerospace guidance and propulsion control, acoustics, or instruments and controls."
     },
         {
-        "O*NET-SOC Code": "17-2112.00",
-        "Title": "Industrial Engineers",
-        "Description": "Design, develop, test, and evaluate integrated systems for managing industrial production processes, including human work factors, quality control, inventory control, logistics and material flow, cost analysis, and production coordination."
-    },
-        {
-        "O*NET-SOC Code": "17-2199.07",
-        "Title": "Photonics Engineers",
+        "onet_soc_code": "17-2199.07",
+        "name":"investigative",
+        "img_url" : "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+        "Title": "Photonics Engineer",
         "Description": "Design technologies specializing in light information or light energy, such as laser or fiber optics technology."
     },
+
     {
-        "O*NET-SOC Code": "17-2199.08",
-        "Title": "Robotics Engineers",
-        "Description": "Research, design, develop, or test robotic applications."
-    },
-    {
-        "O*NET-SOC Code": "17-2199.09",
-        "Title": "Nanosystems Engineers",
+        "onet_soc_code": "17-2199.09",
+        "name":"investigative",
+        "img_url": "https://images.unsplash.com/photo-1582560475052-682d1beb5f42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3286&q=80",
+        "Title": "Nanosystems Engineer",
         "Description": "Design, develop, or supervise the production of materials, devices, or systems of unique molecular or macromolecular composition, applying principles of nanoscale physics and electrical, chemical, or biological engineering."
     },
     {
-        "O*NET-SOC Code": "17-2199.10",
-        "img_url" : "https://unsplash.com/photos/WYGhTLym344",
-        "Title": "Wind Energy Engineers",
+        "onet_soc_code": "17-2199.10",
+        "name":"investigative",
+        "img_url" : "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80",
+        "Title": "Wind Energy Engineer",
         "Description": "Design underground or overhead wind farm collector systems and prepare and develop site specifications."
     },
     {
-        "O*NET-SOC Code": "17-2199.11",
+        "onet_soc_code": "17-2199.11",
+        "name":"investigative",
         "img_url" : "https://images.unsplash.com/photo-1497440001374-f26997328c1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80",
-        "Title": "Solar Energy Systems Engineers",
+        "Title": "Solar Energy Systems Engineer",
         "Description": "Perform site-specific engineering analysis or evaluation of energy efficiency and solar projects involving residential, commercial, or industrial customers. Design solar domestic hot water and space heating systems for new and existing structures, applying knowledge of structural energy requirements, local climates, solar technology, and thermodynamics."
     },
     {
-        "O*NET-SOC Code": "17-3011.00",
-        "img_url" : "https://unsplash.com/photos/xdS9XEoKBLY",
-        "Title": "Architectural and Civil Drafters",
+        "onet_soc_code": "17-3011.00",
+        "name":"investigative",
+        "img_url" : "https://images.unsplash.com/photo-1621905253185-95614217f357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1888&q=80",
+        "Title": "Architect or Civil Drafter",
         "Description": "Prepare detailed drawings of architectural and structural features of buildings or drawings and topographical relief maps used in civil engineering projects, such as highways, bridges, and public works. Use knowledge of building materials, engineering practices, and mathematics to complete drawings."
     },
+
         {
-        "O*NET-SOC Code": "15-1255.01",
-        "img_url": "https://unsplash.com/photos/0woyPEJQ7jc",
-        "Title": "Video Game Designers",
-        "Description": "Design core features of video games. Specify innovative game and role-play mechanics, story lines, and character biographies. Create and maintain design documentation. Guide and collaborate with production staff to produce games as designed."
-    },
-        {
-        "O*NET-SOC Code": "15-1299.01",
-        "img_url" : "microsofthttps://unsplash.com/photos/M1qSY_IuF4c",
+        "onet_soc_code": "15-1299.01",
+        "name":"investigative",
+        "img_url" : "https://images.unsplash.com/photo-1466786784937-3e682c802b14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80",
         "Title": "Web Administrators",
         "Description": "Manage web environment design, deployment, development and maintenance activities. Perform testing and quality assurance of web sites and web applications."
     }

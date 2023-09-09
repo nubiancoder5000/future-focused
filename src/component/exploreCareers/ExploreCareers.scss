@@ -1,18 +1,20 @@
 .explore-careers {
-    margin-top: clamp(60px, 20vw ,120px);// clamp restrict dimensions with a margin btw min and max + a central paramenter the flucuates
+    margin-top: clamp(0px, 20vw ,0px);// (60px, 20vw, 120px) clamp restrict dimensions with a margin btw min and max + a central paramenter the flucuates
     width : calc(100% - 2rem);
     height: max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-inline: 1rem;
-    &__title {
-        font-size: clamp(30px, 3.5vw + .5rem, 48px);
-        text-align: center;
-        color : hsl(250, 95%, 43%);
-        width: 100%;
 
+    &__title {
+        font-size: clamp(30px, 7vw + .5rem, 48px);
+        text-align: center;
+        color : hsl(249, 49%, 8%);     
+        width: 100%;
     }
+
+    
     &__card-wrap {
         display: flex;
         flex-wrap : wrap;
@@ -30,11 +32,15 @@
         
              img {
                 max-width: 100%;
+                width: 330px;
+                height: 320px;
                 border-radius: 12px;
              }
             p {
-               text-align: center;
-               width : 100%;
+                text-align: center;
+                width : 100%;
+                font-family: "canter";
+                font-size: 16px;
             }
         }
     }

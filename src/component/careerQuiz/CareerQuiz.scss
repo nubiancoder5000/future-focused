@@ -1,10 +1,49 @@
+.CareerQuiz__wrapper {
+    margin-top: 48px;
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+}
 .CareerQuiz__Form {
     display: flex;
     flex-direction: column;
     align-items: start;
     width: 300px;
     margin: 0 auto;
+
 }
+
+.CareerQuiz_title{
+        padding-inline: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            width: 100%;
+
+            text-align: center;
+            font-size: clamp(20px, 4vw + 0.5rem, 64px);
+            font-family: "canter-bold";
+            color: #fff;
+            background-color: var(--primary-color);
+            max-width: 70%;
+            padding: 16px;
+            border-radius: 12px;
+        }
+        h2 {
+        width: 100%;
+        font-size: clamp(20px, 4vw + 0.5rem, 32px);
+        font-family: "canter-bold";
+        padding-inline: 16px;
+        align-self: flex-start;
+        }
+        
+
+        @media screen and (max-width: 768px) {
+            padding-inline: 1rem;
+        }
+    }
 
 .quizForm h1 {
     text-align: center;
@@ -24,3 +63,220 @@
     margin-top: 20px;
     align-self: center;
 }
+
+
+
+
+.CareerQuiz__section-one{
+    display : flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+
+    gap: 24px;
+   
+  &__checkbox-section-wrap {
+    display: flex;
+    flex: 1;
+    
+   min-width: 100%;
+    @media screen and (max-width : 1024px) {
+            flex-flow: column nowrap;
+            align-items: center;
+        }
+
+
+  }
+  &__checkbox-section__left {
+    flex: 1.3;
+ 
+     display: flex;
+     flex-flow : column nowrap;
+    h2 {
+        width: 100%;
+            text-align: left;
+            font-size: clamp(20px, 4vw + 0.5rem, 48px);
+            font-family: "canter-extrabold";
+            height: max-content;
+            color: #000;
+            padding-inline: 16px;
+            margin : 0px;
+            font-weight: 900;
+           
+    }
+    h3 {
+        width : 100%;
+        font-size: clamp(20px, 4vw + 0.5rem, 32px);
+        font-family: "canter-bold";
+        padding-inline: 16px;
+    }
+    &__checkboxes {
+        display: flex;
+        flex-flow: column wrap;
+        max-height: 500px;
+        padding-left: 16px;
+            @media screen and (max-width : 645px) {
+                    flex-flow: column nowrap;
+                    align-items: left;
+                    padding-left: 32px;
+        max-height: max-content;
+                }
+            
+    }
+    & .CareerQuiz__checkbox-container {
+        height: max-content;
+        margin-block-end : 24px;
+        label {
+            font-size: clamp(16px, 4vw + 0.5rem, 24px);
+            height: max-content;
+            display: flex;
+        }
+      
+        input[type="checkbox"] {
+            appearance: none;
+            // background-color: transparent;
+            margin: 0 8px ;
+            font: inherit;
+            color: rgb(239, 130, 14);
+            width: 1.15em;
+            height: 1.15em;
+            border: 0.15em solid rgb(239, 130, 14);
+            border-radius: 0.15em;
+            transform: translateY(-0.075em);
+            margin-right: 8px;
+       }
+
+        input[type="checkbox"]::before {
+            content: "";
+            width: 0.65em;
+            padding-left: 2px;
+            padding-top: 2px;
+            display: block; // very important! This prevents it from breaking
+            height: 0.65em;
+            transform: scale(0);
+            transition: 120ms transform ease-in-out;
+            box-shadow: inset 1em 1em rgb(239, 130, 14);
+            background-color:rgb(239, 130, 14);
+            transform-origin: bottom left;
+            clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+        }
+        input[type="checkbox"]:checked::before {
+            transform: scale(1);
+        }
+    }
+  }
+  
+  &__checkbox-section__right {
+    flex : 1;
+    display: flex;
+    align-items: center;
+     img {
+        max-width: 100%;
+        height: 100%;
+            border-radius: 12px;
+     }
+  }
+
+}
+
+
+ .CareerQuiz__section-two {
+     display: flex;
+     flex-flow: row nowrap;
+    margin-top: 48px;
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 16px;
+    margin-inline: auto;
+     & > div {
+     flex: 1;
+      
+     }
+     @media screen and (max-width : 1024px){
+     flex-flow: column nowrap;
+     align-items: left;
+     padding-left: 32px;
+     }
+
+         .careerQuiz_title {
+            padding: 0px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+    
+             h2 {
+                 width: 100%;
+                 font-size: clamp(20px, 4vw + 0.5rem, 32px);
+                 font-family: "canter-extrabold";
+                 padding: 0px;
+             }
+            }
+     @media screen and (max-width : 768px) {
+         flex-flow: column nowrap;
+     }
+     & .CareerQuiz__checkbox-container {
+        height: max-content;
+        margin-block-end: 24px;
+    
+        label {
+            font-size: clamp(16px, 4vw + 0.5rem, 20px);
+            height: max-content;
+            display: flex;
+        }
+    
+        input[type="checkbox"] {
+            appearance: none;
+            // background-color: transparent;
+            margin: 0 8px;
+            font: inherit;
+            color: rgb(239, 130, 14);
+            width: 1.15em;
+            height: 1.15em;
+            border: 0.15em solid rgb(239, 130, 14);
+            border-radius: 0.15em;
+            transform: translateY(-0.075em);
+            margin-right: 8px;
+        }
+    
+        input[type="checkbox"]::before {
+            content: "";
+            width: 0.65em;
+            padding-left: 2px;
+            padding-top: 2px;
+            display: block; // very important! This prevents it from breaking
+            height: 0.65em;
+            transform: scale(0);
+            transition: 120ms transform ease-in-out;
+            box-shadow: inset 1em 1em rgb(239, 130, 14);
+            background-color: rgb(239, 130, 14);
+            transform-origin: bottom left;
+            clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+        }
+    
+        input[type="checkbox"]:checked::before {
+            transform: scale(1);
+        }
+    }
+
+     &__col-three {
+        overflow: hidden;
+        flex : 1.5 !important;
+        img {
+            max-width: 100%;
+             height: 100%;
+             border-radius: 12px;
+        }
+     }
+     
+ }
+
+    .CareerQuiz__submit--button {
+        background-color: var(--primary-color);
+        font-size: 25px;
+        color:#fff;
+        border: none;
+        border-radius: 12px;
+        padding: 24px;
+       
+        
+    }

@@ -1,7 +1,7 @@
 import React from "react";
 import CareerQuizNavbar from "../../component/careerQuizNavbar/CareerQuizNavbar";
 import Header from "../../component/header/Header";
-import ExploreCareers from "../exploreCareers/ExploreCareers";
+import ExploreCareers from "../../component/exploreCareers/ExploreCareers";
 import Hero from "../../component/hero/Hero";
 import CareerQuiz from "../../component/careerQuiz/CareerQuiz";
 import Footer from "../../component/footer/Footer";
@@ -13,9 +13,10 @@ const Home = () => {
       <Header />
       <Hero />
       <ExploreCareers />
-      {/* <CareerQuizNavbar />
       <CareerQuiz />
-      <Footer /> */}
+      {/* <CareerQuizNavbar /> */}
+
+      <Footer />
     </div>
   );
 };
