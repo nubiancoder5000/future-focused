@@ -9,7 +9,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding-inline: 1rem;
+        padding-inline: 4rem;
         font-family: '../../assets/fonts/';
         max-width: 100%;
         width: (100% -2rem);
@@ -30,18 +30,25 @@
             font-family: "canter-bold";
             background-color: #ffff;
             color: #002457;
-            height: 25px;
+            height: 20px;
             padding: 50px;
             border-radius: 8px;
             font-size: 30px;
-            justify-content: center;
-            align-content: center;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            
                 
         }
+    &__icons{
+        display: flex;
+        flex-direction: column;
+    }
 
     &__icon {
-        width: 70px;
-        height:70px;
+        width: 50px;
+        height:50px;
+        padding: 10px;
     }
      
     &__link {

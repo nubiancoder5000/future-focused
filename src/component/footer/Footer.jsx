@@ -21,22 +21,32 @@ const Footer = () => {
           <p className="footer__link">College, Trade, or a Job?</p>
         </div>
 
-        {/* <a className="footer__icon--fb href="" > */}
-        <img className="footer__icon" src={fbIcon} alt="My Image" />
-        {/* </a> */}
+        <div className="footer__icons">
+          <div>
+            {/* <a className="footer__icon--fb href="" > */}
+            <img 
+            className="footer__icon" 
+            src={fbIcon} 
+            alt="My Image" />
+            {/* </a> */}
 
-        {/* <a className="footer__icon--ig href="" > */}
-        <img
-          id="footer__icon__ig"
-          className="footer__icon"
-          src={igIcon}
-          alt="My Image"
-        />
-        {/* </a> */}
+            {/* <a className="footer__icon--ig href="" > */}
+            <img
+              id="footer__icon__ig"
+              className="footer__icon"
+              src={igIcon}
+              alt="My Image"
+            />
+            {/* </a> */}
 
-        {/* <a className="footer__icon--linkedin href="" > */}
-        <img className="footer__icon" src={linkedinIcon} alt="My Image" />
-        {/* </a> */}
+            {/* <a className="footer__icon--linkedin href="" > */}
+            <img 
+            className="footer__icon" 
+            src={linkedinIcon} 
+            alt="My Image" />
+            {/* </a> */}
+          </div>
+        </div >
       </div>
     </>
   );
