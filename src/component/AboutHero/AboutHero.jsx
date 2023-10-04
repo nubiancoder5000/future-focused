@@ -10,10 +10,21 @@ const AboutHero = () => {
 
   return (
     // used image as background and used bg-contain to retain its aspect ratio
-    <div className="aboutHero__wrapper  relative flex justify-center items-center p-4 mt-[-56px] bg-no-repeat bg-contain h-screen " style={sectionStyle}>
-      <div className="aboutHero__content  text-center absolute mt-7 p-4 rounded-md opacity-8 top-[36px]">
-        <h2 className="aboutHero__content--subtitle  text-4xl underline">Learning More About..</h2>
-        <h1 className="aboutHero__content--title  text-[5rem] font-semibold underline">Future Focused</h1>
+    <div>
+      {/* web view */}
+      <div className="AboutHero__wrapper relative lg:flex hidden justify-center items-center p-4 mt-[-56px] bg-no-repeat bg-contain h-screen " style={sectionStyle}>
+        <div className="AboutHero__content text-center absolute mt-7 p-4 rounded-md opacity-8 top-[36px]">
+          <h2 className="AboutHero__subtitle text-4xl underline">Learning More About..</h2>
+          <h1 className="AboutHero__title text-[5rem] font-semibold underline">Future Focused</h1>
+        </div>
+      </div>
+      {/* mobile view */}
+      <div className="AboutHero__wrapper--mobile lg:hidden flex flex-col justify-center items-center">
+        <img src={hero} alt="about us hero image" />
+        <div className="AboutHero__content text-center mt-7 p-4 rounded-md opacity-8 top-[36px]">
+          <h2 className="AboutHero__subtitle text-xl underline">Learning More About..</h2>
+          <h1 className="AboutHero__title text-3xl font-semibold underline">Future Focused</h1>
+        </div>
       </div>
     </div>
   );

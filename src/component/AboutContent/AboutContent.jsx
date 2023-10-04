@@ -2,19 +2,26 @@ import React from 'react'
 
 function AboutContent({heading, imgSrc, paragraph,vidSrc}) {
   return (
-  <div className=" md:min-h-screen flex flex-col-reverse md:flex-row items-center gap-5 md:mx-32 mx-5 mt-14">
-    {/* Image */}
-    <div className=" w-full md:w-2/4">
-      <img src={imgSrc} alt="img" />
+  <div className="about__content--container  flex flex-wrap lg:items-center lg:p-2 p-12 items-center justify-center lg:even:flex-row-reverse lg:even:h-[600px]">
+    
+    {/* Image or video*/}
+    <div className="about__content--image lg:flex-1">
+      {/* using a ternary operator to check if the prop passed is an image or a video */}
+      {
+        imgSrc ? (<img className='lg:w-[100%] lg:h-[600px] object-contain' src={imgSrc} alt="img" />) : (
+          <video className="lg:w-[1200px] lg:h-[600px] h-[400px] object-contain" autoPlay loop muted>
+          <source src={vidSrc} type="video/mp4" />
+            Your browser isn't compatible to view our awesome video! Try
+            logging in on Google Chrome!
+          </video>
+        )
+      }
     </div>
-    <video className="Hero__video" autoPlay loop muted>
-      <source src={vidSrc} type="video/mp4" />
-        Your browser isn't compatible to view our awesome video! Try
-        logging in on Google Chrome!
-    </video>
-    <div className="w-full md:w-2/4 text-center space-y-2">
-        <h1>{heading}</h1>
-        <p className=" text-lightText">
+
+    {/* heading and paragraph */}
+    <div className="lg:w-1/2 flex flex-col px-6 justify-center md:w-2/4 text-center">
+        <h1 className='about__content--header  lg:text-5xl lg:mb-12 text-2xl font-bold mb-5 lg:ml-12 uppercase underline'>{heading}</h1>
+        <p className="about__content--paragraph  text-lightText lg:ml-12 lg:text-2xl lg:leading-10 leading-8 text-lg font-light">
             {paragraph}
         </p>
     </div>
