@@ -13,15 +13,14 @@
     }
 
     &__input{
-        width:40%;
-       
+        width:30%;       
         // max-width: 90%; // removes the gap when scaling down. Gives a gap feeling only on bigger screens
         height:120px;
         color: #FAFAFA;
         border: #E1E1E1 2px solid; //color, size, type
         position: relative;
-        padding-left: 40px;
-        font-size: 40px;
+        padding-left: 15px;
+        font-size: 30px;
         background-color: #002457;
         border-radius: 20px;
     }
@@ -33,7 +32,7 @@
         min-width: 50px;
         top:0;
         left:10px;
-        padding:8px
+        padding-right: 10px;
         // border-radius: 50%;
         
     }

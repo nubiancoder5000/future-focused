@@ -6,7 +6,7 @@
     width: calc(100% - 2rem);
     gap: 2rem;
     flex-direction: row;
-    margin-top: 48px;
+    margin-top: 28px;
     flex-wrap: nowrap;
     overflow: auto;
     padding-inline: 1rem;
@@ -34,10 +34,7 @@
     margin-top: 25px;
     object-fit: fill;
     transform: scale(1.7, 1.8);
-    //   -webkit-transform: scaleX(1.7);
-    //   -webkit-transform: scaleY(1.7);
-    //  -moz-transform: scaleY(1.7);
-    //  -moz-transform: scaleY(1.7);
+    
   }
 
   &__sideImage--container {
@@ -45,7 +42,6 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 100px;
-
     align-items: center;
     &::-webkit-scrollbar {
       // remove scrollbar
@@ -62,6 +58,7 @@
   &__sideImage {
     width: 200px;
     height: 200px;
+    object-fit: contain;
   }
 
   .Hero__sideImage--container:nth-of-type(2) {
@@ -76,10 +73,10 @@
     justify-content: center;
     align-items: center;
     p {
-      width: 100%;
-     
+      width: 100%;     
       text-align: center;
       font-size: clamp(20px, 4vw + 0.5rem, 45px);
+      line-height: 48px;
       font-family: "canter-bold";
       color : rgb(15, 3, 61);
     }
@@ -88,28 +85,3 @@
       }
   }
 }
-
-// .hero__search--icon{
-//     background: url('/path/to/your/video') no-repeat center center fixed;
-//     webkit-background-size: cover;
-//     -moz-background-size: cover;
-//     -o-background-size: cover;
-//     background-size: cover;
-//     min-height: 100vh;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     font-size: calc(10px + 2vmin);
-//     color: white;
-//     text-shadow: 2px 2px 4px #000000;
-//   }
-
-//   input[type="text"] {
-//     // className <hero__search--input>
-//       width: 40%;
-//       padding: 15px 20px;
-//       margin: 8px 0;
-//       box-sizing: border-box;
-//       background: rgba(255, 255, 255, 0.5);
-//   }

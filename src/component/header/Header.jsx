@@ -1,14 +1,13 @@
-//header code//
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
-
 import "../../styles/global.scss";
 import logo from "../../assets/img/ffLogo2.svg";
 import careerQuizButton from "../../assets/icons/careerQuizButton.svg";
 import "./Header.scss";
 
-const NavData = [
+// Define navigation data with the name and corresponding path
+const navData = [
   {
     name: "Careers",
     path: "/",
@@ -21,30 +20,35 @@ const NavData = [
     name: "Explore Careers",
     path: "/explore-careers",
   },
-  {
-    name: "Career Quiz",
-    path: "/career-quiz",
-  },
 ];
 
+// Header component
 const Header = () => {
+  // Function to render navigation links based on the start and end indices
+  const renderNavLinks = (start, end) => {
+    return navData.slice(start, end).map((item, index) => (
+      <NavLink
+        key={index}
+        className="header__navbar--item"
+        to={item.path}
+        activeClassName="active"
+      >
+        {item.name}
+      </NavLink>
+    ));
+  };
+
   return (
     <header className="header">
+      {/* Web navigation */}
       <nav className="header__navbar header__navbar--web">
-        {" "}
-        <Link className="header__navbar--item" to="/careerList">
-          Careers
-        </Link>
-        <Link className="header__navbar--item" to="/about-us">
-          About Us
-        </Link>
-        {/* {NavData.slice(0, 2).map((item, index) => (<Link className="header__navbar--item" to={item.path}>{item.name}</Link>))} */}
+        {/* Render the first two navigation links */}
+        {renderNavLinks(0, 2)}
         <Link to="/">
           <img className="header__navbar--logo" src={logo} alt="logo" />
         </Link>
-        <Link className="header__navbar--item" to="/explore-careers">
-          Explore Careers
-        </Link>
+        {/* Render the remaining navigation links */}
+        {renderNavLinks(2, navData.length)}
         <Link to="/career-quiz">
           <img
             className="header__navbar--careerQuizButton"
@@ -52,9 +56,9 @@ const Header = () => {
             alt="Quiz Button"
           />
         </Link>
-        {/* {NavData.slice(2, NavData?.length).map((item, index) => (<Link className="header__navbar--item" to={item.path}>{item.name}</Link>))} */}
       </nav>
 
+      {/* Mobile navigation */}
       <nav className="header__navbar__mobile">
         <div className="header__navbar__mobile__hamburgerIcon">
           <div>
@@ -63,20 +67,13 @@ const Header = () => {
           <MenuIcon />
         </div>
         <div className="header__navbar__mobile__item__wrap">
-          {" "}
-          <Link className="header__navbar--item" to="/careerList">
-            Careers
-          </Link>
-          <Link className="header__navbar--item" to="/about-us">
-            About Us
-          </Link>
-          {/* {NavData.slice(0, 2).map((item, index) => (<Link className="header__navbar--item" to={item.path}>{item.name}</Link>))} */}
+          {/* Render the first two navigation links */}
+          {renderNavLinks(0, 2)}
           <Link to="/">
             <img className="header__navbar--logo" src={logo} alt="logo" />
           </Link>
-          <Link className="header__navbar--item" to="/explore-careers">
-            Explore Careers
-          </Link>
+          {/* Render the remaining navigation links */}
+          {renderNavLinks(2, navData.length)}
           <Link to="/career-quiz">
             <img
               className="header__navbar--careerQuizButton"
@@ -84,7 +81,6 @@ const Header = () => {
               alt="Quiz Button"
             />
           </Link>
-          {/* {NavData.slice(2, NavData?.length).map((item, index) => (<Link className="header__navbar--item" to={item.path}>{item.name}</Link>))} */}
         </div>
       </nav>
     </header>

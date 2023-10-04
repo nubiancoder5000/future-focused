@@ -1,7 +1,7 @@
 
 .header{
-    // border: solid 10px greenyellow;
     margin-bottom: 10px;
+    margin-top: 0;
     min-height: 80px;
     max-height: 180px;
     display: flex;
@@ -9,26 +9,18 @@
     flex-wrap:  wrap;
     width : 100%;
     max-width: 1440px;  // responsive screen barrier
-    margin-inline: auto; // centers content in the middle of the screen on the x-axis
+    // margin-inline: auto; // centers content in the middle of the screen on the x-axis
     overflow-x: hidden;
     .header__navbar {
         display : flex;
-        flex-direction: row;
+        justify-content:center;
         flex-wrap: nowrap;
         align-items: center;
         width: 100%;
-        justify-content: space-between;
         max-width: 100%;  // stop spill
         margin-inline : auto;
-        // position: fixed;
-        // top: 0;
-        // z-index: 1000;
-        // > div {
-        //     flex-grow: 1;
-        //     margin-right: 50px;
-        // }
-        gap: 100px;
-
+        margin-left: 20px;
+        gap: 50px;
       &--web {
            @media screen and (max-width : 768px) {
              display: none;
@@ -40,20 +32,20 @@
     
     &__navbar--main {
         display : flex;
-        // justify-content: space-between;
         align-items: center;
     }
     
     &__navbar--logo-wrapper {
         display: flex;
-       
+      
     }
     &__navbar--logo {
         
         display:flex;
         max-width: 250px;
         min-width: 60px;
-        width: 100%;    
+        width: 100%; 
+        margin: 0 auto;   
 
     }
 
@@ -69,7 +61,8 @@
 
             // }
         &--careerQuizButton {
-                padding: 15px;
+                // padding: 15px;
+                margin-left: 0;
                 width : 200px;
                 height: 80px; // Set the height to 100%
                  }
@@ -80,10 +73,12 @@
         font-size: clamp(16px,1.5vw + .5rem, 25px); // responsive font size!
         max-width: 100%;
         text-decoration: unset;
+        display: flex;
+        text-align: center;
         color: white;
         background-color: #3fadf1;
         border-radius: 16px;
-        padding: 15px;
+        padding: 20px;
     }  
 }   
 
@@ -91,8 +86,6 @@
         padding: 0px 20px 0px 20px;
 
       }
-    
-
 
 
 .header__navbar__mobile {
