@@ -7,6 +7,7 @@ import igIcon from "../../assets/icons/ig-icon.png";
 import linkedinIcon from "../../assets/icons/linkedin-icon.png";
 
 const Footer = () => {
+  const footerLinks = ["Explore Careers","About Future Focused","College, Trade, or a Job?"]
   return (
     <>
       <div className="footer__wrapper">
@@ -15,10 +16,9 @@ const Footer = () => {
           {" "}
           IF YOU SEE IT, <br /> YOU CAN BECOME IT!{" "}
         </h2>
+        {/* footer links */}
         <div className="footer__link--wrapper">
-          <p className="footer__link">Explore Careers</p>
-          <p className="footer__link">About Future Focused</p>
-          <p className="footer__link">College, Trade, or a Job?</p>
+          {footerLinks.map((link, index)=><p key={index} className="footer__link">{link}</p>)}
         </div>
 
         <div className="footer__icons">
