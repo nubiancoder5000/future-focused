@@ -34,18 +34,6 @@ const About = () => {
           we believe that every young person deserves the opportunity to discover a career that aligns with their passions, talents, and aspirations.  Our mission is to empower the next generation to make informed decisions about their future by providing them with the tools and knowledge they need to thrive in the ever-evolving world of work."
           imgSrc={teensImage}
           />
-          {/* <div className="flex gap-x-5 flex-wrap  text-center justify-center lg:flex lg:flex-row lg:text-start lg:justify-end">
-            <p className="lg:m-2 px-16 lg:text-2xl lg:leading-10 leading-8 font-light text-lg">
-              Our mission is to empower the next generation to make informed decisions about their future by providing them with the tools and knowledge they need to thrive in the ever-evolving world of work.
-            </p>
-            <Link to="/career-quiz">
-              <img
-              className="header__navbar--careerQuizButton w-[150px]"
-              src={careerQuizButton}
-              alt="Quiz Button"
-              />
-            </Link>
-          </div> */}
         </div>
 
         {/* meet the founder */}
@@ -57,9 +45,6 @@ const About = () => {
           imgSrc={founder}
   
           />
-          {/* <p className="lg:m-2 px-16 lg:text-2xl font-light lg:leading-10 leading-8 text-lg">
-            As a visionary in the field of education, Ms. Nubian understands the importance of guiding young people towards fulfilling careers that not only utilize their unique talents but also align with their personal values and interests. 
-          </p> */}
         </div>
         <AboutContent
           paragraph="As a visionary in the field of education, Ms. Nubian understands the importance of guiding young people towards fulfilling careers that not only utilize their unique talents but also align with their personal values and interests. This passion and commitment led her to develop Future Focused, where her extensive experience synergizes technology and the psychology of the RAISEC Occupational Theory."
