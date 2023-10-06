@@ -21,7 +21,7 @@ import Footer from "../../component/footer/Footer";
 
 const About = () => {
   return (
-    <div className="about bg-[#0463ef] text-white">
+    <div className="about bg-[#0463ef] text-white overflow-hidden">
       {/* Hero section */}
       <AboutHero/>
 

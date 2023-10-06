@@ -59,7 +59,7 @@ const Header = () => {
   return (
     <header className="header">
       {/* Web navigation */}
-      <nav className="header__navbar header__navbar--web  top-0 z-[1] mx-auto hidden lg:flex w-full max-w-7xl flex-wrap items-center justify-between border-b border-gray-100 bg-background p-[2em] font-sans font-bold uppercase text-text-primary backdrop-blur-[100px] dark:border-gray-800 dark:bg-d-background dark:text-d-text-primary">
+      <nav className="header__navbar header__navbar--web  top-0 z-[1] mx-auto hidden lg:flex md:hidden w-full flex-wrap items-center justify-between border-b border-gray-100 bg-background p-[2em] font-sans font-bold uppercase text-text-primary backdrop-blur-[100px] dark:border-gray-800 dark:bg-d-background dark:text-d-text-primary">
         {/* Render the first two navigation links */}
         {renderNavLinks(0, 2)}
         <Link to="/">
@@ -77,7 +77,7 @@ const Header = () => {
       </nav>
 
       {/* Mobile navigation */}
-      <nav className="header__navbar__mobile flex flex-col items-center bg-slate-400 w-[100%] px-8 lg:hidden">
+      <nav className="header__navbar__mobile md:flex flex flex-col items-center bg-slate-400 w-[100%] px-8 lg:hidden">
         {/* logo and menu icon */}
         <div className="header__navbar__mobile__hamburgerIcon flex w-[100%] h-[60px] justify-between items-center">
           <Link to="/">
