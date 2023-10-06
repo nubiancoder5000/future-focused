@@ -1,147 +1,127 @@
-
-.header{
-    margin-bottom: 10px;
-    margin-top: 0;
-    min-height: 80px;
-    max-height: 180px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap:  wrap;
-    width : 100%;
-    max-width: 1440px;  // responsive screen barrier
-    // margin-inline: auto; // centers content in the middle of the screen on the x-axis
-    overflow-x: hidden;
-    .header__navbar {
-        display : flex;
-        justify-content:center;
-        flex-wrap: nowrap;
-        align-items: center;
-        width: 100%;
-        max-width: 100%;  // stop spill
-        margin-inline : auto;
-        margin-left: 300px;
-        gap: 50px;
-      &--web {
-           @media screen and (max-width : 768px) {
-             display: none;
-         }
-      }
-      
-    }
-    
-    
-    &__navbar--main {
-        display : flex;
-        align-items: center;
-    }
-    
-    &__navbar--logo-wrapper {
-        display: flex;
-      
-    }
-    &__navbar--logo {
-        
-        display:flex;
-        max-width: 250px;
-        min-width: 60px;
-        width: 100%; 
-        margin: 0 auto;   
-
-    }
-
-    &__navbar {
-        // display: flex;
-        background-color: none;
-
-            // @include tablet {
-                
-            // }
-        
-            // @include desktop {
-
-            // }
-        &--careerQuizButton {
-                // padding: 15px;
-                margin-left: 0;
-                width : 200px;
-                height: 80px; // Set the height to 100%
-                 }
-        
-    }
-
-    &__navbar--item {
-        font-size: clamp(16px,1.5vw + .5rem, 25px); // responsive font size!
-        max-width: 100%;
-        text-decoration: unset;
-        display: flex;
-        text-align: center;
-        color: white;
-        background-color: #3fadf1;
-        border-radius: 16px;
-        padding: 20px;
-    }  
-}   
-
-.outside {
-        padding: 0px 20px 0px 20px;
-
-      }
-
-
-.header__navbar__mobile {
-
-    display: none;
-    height : 60px;
-     background-color: rgba(232, 232, 232, 0.577);
-       backdrop-filter: blur(10px);
-
-    @media screen and (max-width : 768px) {
-      display: flex;
-       width : 100%;
-       padding-inline: 2rem;
-    }
- 
-
-    &__hamburgerIcon {
-       display: flex;
-        width : 100%;
-        height : 100%;
-      justify-content: space-between;
-      align-items: center;
-     
-  
-
-       img {
-        max-width : 60px;
-       }
-       svg {
-         color : rgb(12, 158, 226);
-         font-size: 32px;
-       }
-    }
-
-   &__item__wrap{
-      display: none;
-   }
+/* Header Styles */
+.header {
+  margin-bottom: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1440px; /* responsive screen barrier */
 }
 
+.header__navbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+  max-width: 100%; /* stop spill */
+  margin-inline: auto;
+  gap: 40px;
+}
 
+.header__navbar--web {
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
 
+.header__navbar__main {
+  display: flex;
+  align-items: center;
+}
 
+.header__navbar--logo-wrapper {
+  display: flex;
+}
 
+.header__navbar--logo {
+  display: flex;
+  max-width: 250px;
+  min-width: 60px;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(1); /* initial position for hover effect */
+  transition: transform 0.3s ease; /* transition for smooth animation */
+}
 
-// .header {
-//     padding: 1.5rem 1rem 6rem 1rem;
-//     margin-bottom: -4rem;
-//     background-color: $background-dark;
+.header__navbar--logo:hover {
+  transform: scale(1.1);
+}
 
-//     @include tablet {
-//         padding: 2rem 2rem 7.875rem 2rem;
-//         margin-bottom: -5.875rem;
-//     }
+.header__navbar--careerQuizButton {
+  margin-left: 0;
+  width: 200px;
+  height: 80px; /* Set the height to 100% */
+  transform: scale(1); /* initial position for hover effect */
+  transition: transform 0.3s ease; /* transition for smooth animation */
+}
 
-//     @include desktop {
-//         padding-left: 10vw;
-//         padding-right: 10vw;
-//     }
-// }
+.header__navbar--careerQuizButton:hover {
+  transform: scale(1.1);
+}
+
+.header__navbar--item {
+  font-size: clamp(16px, 1.5vw + 0.5rem, 25px); /* responsive font size */
+  max-width: 100%;
+  text-decoration: unset;
+  display: flex;
+  text-align: center;
+  color: white;
+  background-color: #3fadf1;
+  border-radius: 16px;
+  padding: 20px;
+  transform: scale(1); /* initial position for hover effect */
+  transition: transform 0.3s ease; /* transition for smooth animation */
+}
+
+.header__navbar--item:hover {
+  /* hover styles */
+  background-color: #e5e5e5; /* Change this to your desired background color */
+  color: #333; /* Change this to your desired text color */
+  transform: scale(1.1);
+}
+
+/* Mobile Navigation Styles */
+.header__navbar__mobile {
+  display: none;
+  height: 0px;
+  background-color: rgba(232, 232, 232, 0.577);
+  backdrop-filter: blur(10px);
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column; /* Adjust the layout for mobile */
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    padding-inline: 2rem;
+  }
+}
+
+.header__navbar__mobile__hamburgerIcon {
+  display: flex;
+  width: 100%;
+  height: 60px; /* Adjust the height for mobile */
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    max-width: 60px;
+  }
+
+  svg {
+    color: rgb(12, 158, 226);
+    font-size: 32px;
+  }
+}
+
+.header__navbar__mobile__items {
+  display: flex;
+  flex-direction: column; /* Display items vertically */
+  align-items: center; /* Center items horizontally */
+  margin-top: 20px; /* Add spacing at the top */
+}
+
+/* Add additional styles for mobile navigation links if needed */
+.header__navbar__mobile__items a {
+  margin: 10px 0; /* Add spacing between mobile navigation links */
+}

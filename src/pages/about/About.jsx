@@ -16,11 +16,12 @@ import youth from '../../assets/img/youth.jpg'
 import founderVid from '../../assets/video/founder.mp4'
 import approachVid from '../../assets/video/woman-different-careers-reel.mp4'
 import spaceVid from '../../assets/video/space-journey.mp4'
+import Footer from "../../component/footer/Footer";
 
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about bg-[#0463ef] text-white">
       {/* Hero section */}
       <AboutHero/>
 
@@ -30,38 +31,40 @@ const About = () => {
         <div className="">
           <AboutContent 
           paragraph="At Future Focused,
-          we believe that every young person deserves the opportunity to discover a career that aligns with their passions, talents, and aspirations."
+          we believe that every young person deserves the opportunity to discover a career that aligns with their passions, talents, and aspirations.  Our mission is to empower the next generation to make informed decisions about their future by providing them with the tools and knowledge they need to thrive in the ever-evolving world of work."
           imgSrc={teensImage}
           />
-          <div className="flex gap-x-5 flex-wrap  text-center justify-center lg:flex lg:flex-row lg:text-start lg:justify-end">
+          {/* <div className="flex gap-x-5 flex-wrap  text-center justify-center lg:flex lg:flex-row lg:text-start lg:justify-end">
             <p className="lg:m-2 px-16 lg:text-2xl lg:leading-10 leading-8 font-light text-lg">
               Our mission is to empower the next generation to make informed decisions about their future by providing them with the tools and knowledge they need to thrive in the ever-evolving world of work.
             </p>
             <Link to="/career-quiz">
               <img
-              className="header__navbar--careerQuizButton "
+              className="header__navbar--careerQuizButton w-[150px]"
               src={careerQuizButton}
               alt="Quiz Button"
               />
             </Link>
-          </div>
+          </div> */}
         </div>
 
         {/* meet the founder */}
         <div className="flex flex-wrap text-center justify-center lg:flex">
-          <h1 className="uppercase underline font-bold text-3xl text-center lg:text-5xl">Meet the founder</h1>
+          <h1 className="uppercase underline font-canter text-3xl text-center lg:text-7xl">Meet the founder</h1>
           <AboutContent
           paragraph="The Future Focused Web App was founded by Shantel Nubian, a dedicated STEAM Educator with over a decade of experience in inspiring and equipping young minds with the skills and knowledge they need to excel in today's technology-driven world. 
           Ms. Nubian's journey began with a profound passion for teaching and a vision to bridge the gap between education and industry. With a background in coding robots, websites, and video games, Ms. Nubian has honed her expertise to create innovative learning experiences that captivate and empower young learners."
           imgSrc={founder}
+  
           />
-          <p className="lg:m-2 px-16 lg:text-2xl font-light lg:leading-10 leading-8 text-lg">
+          {/* <p className="lg:m-2 px-16 lg:text-2xl font-light lg:leading-10 leading-8 text-lg">
             As a visionary in the field of education, Ms. Nubian understands the importance of guiding young people towards fulfilling careers that not only utilize their unique talents but also align with their personal values and interests. 
-          </p>
+          </p> */}
         </div>
         <AboutContent
-          paragraph="This passion and commitment led her to develop Future Focused, where her extensive experience synergizes technology and the psychology of the RAISEC Occupational Theory."
+          paragraph="As a visionary in the field of education, Ms. Nubian understands the importance of guiding young people towards fulfilling careers that not only utilize their unique talents but also align with their personal values and interests. This passion and commitment led her to develop Future Focused, where her extensive experience synergizes technology and the psychology of the RAISEC Occupational Theory."
           vidSrc={founderVid}
+          heading= "continuation. . ."
         />
 
         {/* the approach */}
@@ -86,7 +89,8 @@ const About = () => {
           Take our Future Focused Career Quiz and learn what it takes to become your best future self.."
           vidSrc={spaceVid}
           />
-      </section>      
+      </section>    
+      <Footer/>  
     </div>
   )
 };
